@@ -15,12 +15,16 @@ package com.marveliu.domain;
  * limitations under the License.
  */
 
+import java.io.Serializable;
+
 /**
  * @author Marveliu
  * @since 05/04/2018
  **/
 
-public class EmailApply {
+public class EmailApply implements Serializable {
+
+    private static final long serialVersionUID = -1L;
 
     // 主键
     private Long id;
@@ -39,6 +43,14 @@ public class EmailApply {
 
     // 类型
     private Integer type;
+
+    public EmailApply() {
+    }
+
+    public EmailApply(String appid, Integer type) {
+        this.appid = appid;
+        this.type = type;
+    }
 
     public Long getId() {
         return id;

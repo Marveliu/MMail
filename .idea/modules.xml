@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/MMail.iml" filepath="$PROJECT_DIR$/.idea/MMail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MMail-core/MMail-core.iml" filepath="$PROJECT_DIR$/MMail-core/MMail-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mail/spring-boot-mail.iml" filepath="$PROJECT_DIR$/spring-boot-mail/spring-boot-mail.iml" />
+    </modules>
+  </component>
+</project>

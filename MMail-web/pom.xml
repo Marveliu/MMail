@@ -2,15 +2,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.marveliu</groupId>
-    <artifactId>MMail-core</artifactId>
+    <artifactId>MMail-web</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>MMail-core</name>
-    <description>core</description>
+    <name>MMail-web</name>
+    <description>web app</description>
+
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -26,7 +28,6 @@
     </properties>
 
 
-
     <dependencies>
         <!--启动器-->
         <dependency>
@@ -34,10 +35,9 @@
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
-        <!--邮件-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-mail</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <!--测试-->
@@ -59,11 +59,6 @@
             <artifactId>spring-context-support</artifactId>
             <version>RELEASE</version>
         </dependency>
-        <dependency>
-            <groupId>com.sun.mail</groupId>
-            <artifactId>javax.mail</artifactId>
-            <version>RELEASE</version>
-        </dependency>
 
         <!--thymeleaf-->
         <dependency>
@@ -72,7 +67,20 @@
         </dependency>
 
 
+        <!--Swagger2-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.2.2</version>
+        </dependency>
     </dependencies>
+
+
 
     <build>
         <plugins>
@@ -86,5 +94,5 @@
         </plugins>
     </build>
 
-    
+
 </project>

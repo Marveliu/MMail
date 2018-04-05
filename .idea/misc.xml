@@ -8,7 +8,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-mail/pom.xml" />
+        <option value="$PROJECT_DIR$/MMail-web/pom.xml" />
       </list>
     </option>
   </component>

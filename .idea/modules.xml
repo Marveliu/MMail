@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MMail.iml" filepath="$PROJECT_DIR$/.idea/MMail.iml" />
       <module fileurl="file://$PROJECT_DIR$/MMail-core/MMail-core.iml" filepath="$PROJECT_DIR$/MMail-core/MMail-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-mail/spring-boot-mail.iml" filepath="$PROJECT_DIR$/spring-boot-mail/spring-boot-mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MMail-web/MMail-web.iml" filepath="$PROJECT_DIR$/MMail-web/MMail-web.iml" />
     </modules>
   </component>
 </project>

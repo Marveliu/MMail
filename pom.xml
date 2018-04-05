@@ -11,6 +11,7 @@
 
     <modules>
         <module>MMail-core</module>
+        <module>MMail-web</module>
     </modules>
 
 

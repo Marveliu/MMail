@@ -36,8 +36,6 @@ public class EmailApplyController {
     static Map<Long, EmailApply> applies = Collections.synchronizedMap(new HashMap<Long, EmailApply>());
 
 
-
-
     @ApiOperation(value="获取用户列表", notes="")
     @ApiImplicitParam(name = "user", value = "用户详细实体user", required = true, dataType = "User")
     @RequestMapping(value="/", method=RequestMethod.GET)

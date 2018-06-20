@@ -91,3 +91,4 @@ fabric.properties
 /MMail-core/src/main/resources/application-dev.properties
 /spring-boot-mail/
 /logs/
+/.idea/

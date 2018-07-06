@@ -89,6 +89,5 @@ fabric.properties
 
 # 邮件配置信息
 /MMail-core/src/main/resources/application-dev.properties
-/spring-boot-mail/
 /logs/
 /.idea/

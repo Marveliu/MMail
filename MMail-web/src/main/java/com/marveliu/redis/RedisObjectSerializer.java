@@ -26,6 +26,8 @@ import org.springframework.data.redis.serializer.RedisSerializer;
  * @since 05/04/2018
  **/
 
+
+
 public class RedisObjectSerializer implements RedisSerializer<Object> {
 
     // 序列化和反序列化

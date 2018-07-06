@@ -59,12 +59,20 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+
+        <!--监控-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
         <!--测试-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
 
         <!--热部署-->
         <dependency>
@@ -123,6 +131,7 @@
             <artifactId>flyway-core</artifactId>
             <version>5.0.3</version>
         </dependency>
+
 
     </dependencies>
 

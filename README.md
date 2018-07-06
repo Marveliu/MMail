@@ -10,7 +10,7 @@
 - [Install](#install)
 - [Usage](#usage)
 - [Todo](#todo)
-- [API](#api)
+- [Features](#features)
 - [Maintainers](#maintainers)
 - [Contribute](#contribute)
 - [License](#license)
@@ -29,7 +29,9 @@
 ```
 ```
 
-## API
+## Features
+
+1. flyway 数据库版本控制
 
 ## Todo
 

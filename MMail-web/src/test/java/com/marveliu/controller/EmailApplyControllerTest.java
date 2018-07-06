@@ -25,6 +25,7 @@ import static org.hamcrest.Matchers.equalTo;
 @WebAppConfiguration
 public class EmailApplyControllerTest {
 
+    // MockMvc 测试
     private MockMvc mvc;
 
     @Before
